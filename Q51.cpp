@@ -1,0 +1,9 @@
+// 50. Simple Interest
+#include <iostream>
+using namespace std;
+int main()
+{
+    float p, r, t;
+    cin >> p >> r >> t;
+    cout << (p * r * t) / 100;
+}
